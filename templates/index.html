@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body bgcolor="plum">
+    <center>
+    <h3>Medical Insurance Prediction Model</h3>
+    <form method="post" action="/prediction">
+        <label> age </label>
+        <input type="text" name="age">
+        <br>
+        <br>
+        <label> sex </label>
+        <input type="text" name="sex">
+        <br>
+        <br>
+        <label> bmi </label>
+        <input type="text" name="bmi">
+        <br>
+        <br>
+        <label> children </label>
+        <input type="text" name="children">
+        <br>
+        <br>
+        <label> smoker </label>
+        <input type="text" name="smoker">
+        <br>
+        <br>
+        <label> region </label>
+        <input type="text" name="region">
+        <br>
+        <br>
+        <p style="color: black;">
+        <input type="submit" value="Predict Insurance">
+        <br>
+        <br>
+        {{Result}}
+
+
+    </form>
+    </center>
+    
+</body>
+</html>
